@@ -1,0 +1,13 @@
+cd ~
+cd desktop
+mkdir test
+touch index.html
+touch styles.css
+touch commands.txt
+cd index.html index_2.html
+rm styles.css
+cd desktop
+git init
+mkdir destination
+mv test/index_2.html destination
+rm-rf destination
